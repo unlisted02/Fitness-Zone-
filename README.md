@@ -17,7 +17,7 @@ Tech Stack:
 4) Cloudflare / Vercel
 
 ## Live Demo
-Check out the live demo: https://fitnessszone.pages.dev/
+Check out the live demo: https://fitness-zone-one.vercel.app/
 
 ## Project Scripts
 
