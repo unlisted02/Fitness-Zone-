@@ -21,7 +21,7 @@ const Plans = () => {
                     <div className="plan" key={i}>
                         {plan.icon}
                         <span>{plan.name}</span>
-                        <span>&#8377; {plan.price}</span>
+                        <span>kSh {plan.price}</span>
 
                         <div className="features">
                             {plan.features.map((feature, i) => (
@@ -33,7 +33,7 @@ const Plans = () => {
                         </div>
 
                         <div>
-                            <span>See More Benefits -></span>
+                            <span>See More Benefits- </span>
                         </div>
                         <button className="btn j-btn"><Link
                             to='join-us'

@@ -48,19 +48,19 @@ const Hero = () => {
                 <div className="figures">
                     <div>
                         <span>
-                            <NumberCounter end={130} start={90} delay='4' preFix='+' />
+                            <NumberCounter end={70} start={0} delay='4' preFix='+' />
                         </span>
                         <span>Expert Trainers</span>
                     </div>
                     <div>
                         <span>
-                            <NumberCounter end={984} start={800} delay='4' preFix='+' />
+                            <NumberCounter end={280} start={100} delay='12' preFix='+' />
                         </span>
                         <span>Members Joined</span>
                     </div>
                     <div>
                         <span>
-                            <NumberCounter end={60} start={0} delay='4' preFix='+' /> 
+                            <NumberCounter end={10} start={0} delay='8.5' preFix='+' /> 
                         </span>
                         <span>Fitness Programs</span>
                     </div>
@@ -73,7 +73,12 @@ const Hero = () => {
                         span={true}
                         smooth={true}
                     >Get Started</Link></buttons>
-                    <buttons className="btn">Learn More</buttons>
+
+                    <buttons className="btn"><Link
+                        to='programs'
+                        span={true}
+                        smooth={true}
+                    >Learn More</Link></buttons>
                 </div>
 
             </div>

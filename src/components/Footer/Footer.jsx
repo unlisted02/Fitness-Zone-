@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import Github from '../../assets/github.png';
-import Instagram from '../../assets/instagram.png';
+import Portfolio from '../../assets/port.png';
 import Linkedin from '../../assets/linkedin.png';
 import Logo from '../../assets/logo.png';
 import { Link } from 'react-scroll';
@@ -69,13 +69,13 @@ const Footer = () => {
 
             <div className="footer-r">
                 <h4>Follow Us</h4>
-                <a href='https://github.com/pranavambadkar'><img src={Github} alt="" /></a>
-                <a href='https://www.linkedin.com/in/pranav-ambadkar-25298520a/'><img src={Linkedin} alt="" /></a>
-                <a href='https://www.instagram.com/pranav__232/?igshid=ZDc4ODBmNjlmNQ%3D%3D'><img src={Instagram} alt="" /></a>
+                <a href='https://github.com/unlisted02'><img src={Github} alt="" /></a>
+                <a href='https://www.linkedin.com/in/michael-kuria-74aa71257/'><img src={Linkedin} alt="" /></a>
+                <a href='https://portfolio-unlisted.vercel.app/'><img src={Portfolio} alt="" /></a>
 
                 <hr />
                 <div className="copyright">
-                    <p>&copy; 2023 Fitness Zone. All rights reserved.</p>
+                    <p>&copy; 2024 Fitness Zone. All rights reserved.</p>
                 </div>
             </div>
         </div>

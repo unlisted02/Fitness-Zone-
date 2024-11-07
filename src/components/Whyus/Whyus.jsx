@@ -29,7 +29,7 @@ const Whyus = () => {
                 <div className='details-r'>
                     <div>
                         <img src={tick} alt=""></img>
-                        <span>OVER 140+ EXPERT COACHES</span>
+                        <span>OVER 70+ EXPERT COACHES</span>
                     </div>
                     <div>
                         <img src={tick} alt="" />
